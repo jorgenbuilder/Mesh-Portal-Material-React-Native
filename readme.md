@@ -1,0 +1,5 @@
+- This repo demonstrates that <MeshPortalMaterial /> does not support `samples` prop
+- This causes react native to throw `Error: Exception in HostFunction: EXGL: renderbufferStorageMultisample() isn't implemented yet!`
+- Bug only tested on macOS paired with an iPhone
+- Install expo go on your iPhone
+- `npm i && npm start`
